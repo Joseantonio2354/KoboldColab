@@ -55,6 +55,7 @@ function launch
         echo Initialization complete...
         exit 0
     else
+	clear
     cd /content/KoboldAI-Client
     echo "Ejecutando KoboldAI con los siguientes parametros : python3 aiserver.py$model$kmpath$configname$ngrok$localtunnel$savemodel$revision$backend --colab"
     python3 aiserver.py$model$kmpath$configname$ngrok$localtunnel$savemodel$revision$backend --colab
